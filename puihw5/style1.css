@@ -359,7 +359,7 @@ label {
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 15px;
   overflow: auto;
   font-family: 'Open Sans', sans-serif;
 }
@@ -441,4 +441,21 @@ label {
   border-color: #e0e0e0;
   color: black;
   background-color: #e0e0e0;
+}
+
+.appointmentdetailsback {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.appointmentdetailsback p {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: -10px;
+}
+
+.appointmentdetailsback a {
+  color: #666666;
+  text-decoration: none;
 }
