@@ -1,0 +1,444 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.loginbutton {
+  background: #bb0000;
+  border: 1px #bb0000;
+  border-radius: 3px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 10%;
+  padding: 14px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.loginbutton a {
+  text-decoration: none;
+  color: white;
+}
+
+.loginlogo {
+  color: white;
+  background: #bb0000;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 75px;
+}
+
+.andrewid {
+  margin-bottom: 25px;
+}
+
+.password {
+  margin-bottom: 50px;
+}
+
+input[type=text] {
+  width: 90%;
+  padding: 8px;
+  margin: 12px 0;
+}
+
+label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form {
+  display:flex;
+  justify-content: center;
+}
+
+.pagelogo {
+  color: #bb0000;
+  background: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -5px;
+}
+
+.pagelogo a {
+  text-decoration: None;
+  color: #bb0000;
+}
+
+.cmupicture img{
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar ul {
+  display: block;
+  list-style-type: none;
+  margin-top: -5px;
+  margin-bottom: 0px;
+  padding-top: 18px;
+  padding-bottom: 5px;
+  background-color: #e0e0e0;
+  text-align: justify;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: -50px;
+}
+
+.navbar a {
+  display: block;
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+}
+
+.activepage a {
+  color: white;
+  background-color: #666666;
+  padding-top: 14px;
+  padding-bottom: 18px;
+  margin-bottom: -20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.split {
+  width: 50%;
+  position: absolute;
+}
+
+.left {
+  left: 0;
+  background-color: #bb0000;
+  height: 600px;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+  height: 600px;
+}
+
+.homepageupcomingappointments {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.quickscheduler {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+/*.r {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.l {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+} */
+
+.homepageheading {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 25px;
+  color: white;
+  display:flex;
+  justify-content: center;
+}
+
+.homepagedetails {
+  font-family: 'Open Sans', sans-serif;
+  padding: 3px 10px;
+  color: black;
+  background: #e0e0e0;
+  width: 30%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.homepagedetails p {
+  float: right;
+  margin-top: -60px;
+  font-size: 30px;
+}
+
+.homepagecovidtestdetails a {
+  text-decoration: none;
+  color: black;
+}
+
+.homepagedetails h4 {
+  margin:  5px;
+  font-size: 18px;
+}
+
+.quickschedulerpickappointmenttype {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 115px;
+  margin-bottom: 30px;
+  color: black;
+  display:flex;
+  justify-content: center
+}
+
+.quickschedulerappointmenttypes label {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 10px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e0e0e0;
+  width: 30%;
+  border-radius: 20px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.quickschedulerappointmenttypes input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.quickschedulerappointmenttypes input[type="radio"]:checked + label {
+    background-color:#bb0000;
+    color: white;
+}
+
+.navbarappts {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.navbarappts ul {
+  margin: 0;
+  padding: 5px;
+}
+
+.navbarappts li {
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  float: left;
+}
+
+.navbarappts a {
+  display: block;
+  color: #71797E;
+}
+
+.navbarappts a.active {
+  color: white;
+}
+
+.appointmentopen {
+  display: block;
+  background-color: #e0e0e0;
+  width: 75%;
+  margin-top: -10px;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.appointmentopen h4 {
+  font-size: 18px;
+  margin-bottom: -5px;
+}
+
+.appointmentopenleft {
+  margin-left: 20px;
+  margin-top: -8px;
+}
+
+.appointmentopenright {
+  float: right;
+  margin-top: -155px;
+  margin-right: 10px;
+}
+
+.appointmentopenright ul {
+  list-style-type: none;
+}
+
+.appointmentopenright li {
+  padding: 8px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.appointmentopenright a {
+  color: black;
+}
+
+.appointmentcollapsed {
+  color: white;
+  margin: auto;
+  background: #bb0000;
+  width: 75%;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.appointmentcollapsed i {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.appointmentcollapsed h4 {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  color: white;
+  margin-right: 30px;
+}
+
+.downarrow i {
+  float: right;
+  margin-top: -40px;
+  margin-right: 20px;
+  color: white;
+}
+
+.appointmentdetails {
+  width: 70%;
+  border-style: solid;
+  border-color: #bb0000;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.appointmentdetailsright {
+  float: right;
+  margin-right: 50px;
+}
+
+.appointmentdetailsright h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.appointmentdetailsright h5 {
+  margin-top: 15px;
+  margin-bottom: -5px;
+  font-size: 20px;
+}
+
+.appointmentdetailsright ul {
+  margin-bottom: -5px;
+  font-size: 18px;
+}
+
+.appointmentdetailsleft {
+  float: left;
+  margin-left: 50px;
+}
+
+.appointmentdetails img {
+  width: 150px;
+  height: 150px;
+}
+
+.barcode i {
+  font-size: 35px;
+  margin-left: 5px;
+}
+
+.barcode {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.detail i {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.detail h4 {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.button {
+  border-style: solid;
+  border-radius: 50px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.red {
+  font-weight: bold;
+  border-color: #bb0000;
+  color: white;
+  background-color: #bb0000;
+}
+
+.gray {
+  font-weight: bold;
+  border-color: #e0e0e0;
+  color: black;
+  background-color: #e0e0e0;
+}
