@@ -1,13 +1,12 @@
+/*code for removing right side white space*/
+/*source: ;https://www.codegrepper.com/code-examples/css/how+to+remove+white+space+in+the+right+side+of+web+page*/
 html,body {
     margin:0;
     padding:0;
     overflow-x:hidden;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+/*code for login page*/
 .loginbutton {
   background: #bb0000;
   border: 1px #bb0000;
@@ -64,6 +63,7 @@ label {
   justify-content: center;
 }
 
+/*general code HealthConnect logo*/
 .pagelogo {
   color: #bb0000;
   background: white;
@@ -82,10 +82,13 @@ label {
   color: #bb0000;
 }
 
+/*code for homepage*/
 .cmupicture img{
   width: 100%;
 }
 
+/*general navbar for all pages*/
+/*source: https://www.codecademy.com/courses/learn-css/lessons/css-typography/exercises/review*/
 .navbar {
   width: 100%;
 }
@@ -131,6 +134,9 @@ label {
   margin-right: -40px;
 }
 
+/*code homepage*/
+/*some code for splitting the homepage screen shown below*/
+/*source:  https://www.w3schools.com/howto/howto_css_split_screen.asp*/
 .split {
   width: 50%;
   position: absolute;
@@ -169,16 +175,6 @@ label {
   display: inline-block;
   padding: 3px;
 }
-
-/*.r {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.l {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-} */
 
 .homepageheading {
   display: inline-block;
@@ -252,6 +248,7 @@ label {
     color: white;
 }
 
+/*code for upcoming and past appointments pages*/
 .navbarappts {
   width: 100%;
   margin-top: 30px;
@@ -352,6 +349,7 @@ label {
   color: white;
 }
 
+/*code for appointment details page*/
 .appointmentdetails {
   width: 70%;
   border-style: solid;
